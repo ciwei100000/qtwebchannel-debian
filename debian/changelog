@@ -2,6 +2,7 @@ qtwebchannel-opensource-src (5.12.2-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Build-depend on just qtdeclarative5-dev, not -private-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 Mar 2019 23:38:13 +0300
 

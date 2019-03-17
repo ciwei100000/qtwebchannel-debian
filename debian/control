@@ -13,7 +13,7 @@ Build-Depends: debhelper (>= 11),
                qtbase5-dev (>= 5.11.3+dfsg~),
                qtbase5-private-dev (>= 5.11.3+dfsg~),
                qtchooser,
-               qtdeclarative5-private-dev (>= 5.11.3~)
+               qtdeclarative5-dev (>= 5.12.2~)
 Build-Depends-Indep: qttools5-dev-tools (>= 5.11.3~) <!nodoc>
 Standards-Version: 4.3.0
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel
