@@ -1,4 +1,4 @@
-qtwebchannel-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.12.3-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Update my name/email.
@@ -8,7 +8,7 @@ qtwebchannel-opensource-src (5.12.3-1) UNRELEASED; urgency=medium
   * New upstream release.
   * Bump Qt build-dependencies to 5.12.3.
 
- -- Scarlett Moore <sgmoore@kde.org>  Mon, 22 Apr 2019 05:58:35 -0700
+ -- Dmitry Shachnev <mitya57@debian.org>  Mon, 22 Apr 2019 21:49:47 +0300
 
 qtwebchannel-opensource-src (5.12.2-1) experimental; urgency=medium
 
