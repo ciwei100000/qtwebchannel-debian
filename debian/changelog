@@ -5,6 +5,7 @@ qtwebchannel-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
 
   [ Dmitry Shachnev ]
   * New upstream release.
+  * Bump Qt build-dependencies to 5.12.4.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Jun 2019 12:21:44 +0300
 
