@@ -1,4 +1,4 @@
-qtwebchannel-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.12.4-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
   * Further improve the doc-base file.
@@ -11,7 +11,7 @@ qtwebchannel-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Rename README.Debian to qtwebchannel5-examples.README.Debian to make
     it installed automatically by dh_installdocs.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Jun 2019 12:21:44 +0300
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 21 Jun 2019 12:50:24 +0300
 
 qtwebchannel-opensource-src (5.12.3-1) experimental; urgency=medium
 
