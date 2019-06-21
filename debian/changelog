@@ -1,3 +1,13 @@
+qtwebchannel-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
+
+  [ Scarlett Moore ]
+  * Further improve the doc-base file.
+
+  [ Dmitry Shachnev ]
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Jun 2019 12:21:44 +0300
+
 qtwebchannel-opensource-src (5.12.3-1) experimental; urgency=medium
 
   [ Scarlett Moore ]
