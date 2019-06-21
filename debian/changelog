@@ -8,6 +8,8 @@ qtwebchannel-opensource-src (5.12.4-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.4.
   * Make the .install files more verbose.
   * Simplify debian/rules by using a debian/not-installed file.
+  * Rename README.Debian to qtwebchannel5-examples.README.Debian to make
+    it installed automatically by dh_installdocs.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 21 Jun 2019 12:21:44 +0300
 
