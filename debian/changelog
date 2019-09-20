@@ -5,6 +5,7 @@ qtwebchannel-opensource-src (5.12.5-1) UNRELEASED; urgency=medium
   * Bump Qt build-dependencies to 5.12.5.
   * Remove the chatclient-html example using a patch (see #934124).
   * Build-depend on qtbase and qtwebsockets documentation for linking docs.
+  * Bump Standards-Version to 4.4.0, no changes needed.
 
  -- Scarlett Moore <sgmoore@kde.org>  Fri, 09 Aug 2019 12:04:34 -0700
 
