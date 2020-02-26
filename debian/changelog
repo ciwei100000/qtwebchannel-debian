@@ -6,6 +6,7 @@ qtwebchannel-opensource-src (5.14.1-1) UNRELEASED; urgency=medium
   * Update to debhelper compat level 12, use the new syntax.
   * Update debian/libqt5webchannel5.symbols from the current build log.
   * Reproducible builds: remove build path from the prl file.
+  * Bump Standards-Version to 4.5.0, no changes needed.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 26 Feb 2020 16:29:35 +0300
 
