@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.1 i386
+# SymbolsHelper-Confirmed: 5.14.1 amd64 i386
 libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
 * Build-Depends-Package: libqt5webchannel5-dev
  Qt_5.0@Qt_5.0 5.6.1
@@ -120,7 +120,7 @@ libQt5WebChannel.so.5 libqt5webchannel5 #MINVER#
  _ZNK22QQmlWebChannelAttached10metaObjectEv@Qt_5_PRIVATE_API 5.6.1
  _ZNK22QQmlWebChannelAttached2idEv@Qt_5_PRIVATE_API 5.6.1
  _ZNK28QWebChannelAbstractTransport10metaObjectEv@Qt_5 5.6.1
- (optional=templinst)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.14.1
+ (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEENSt9enable_ifIXsrSt6__and_IJSt6__not_ISt15__is_tuple_likeIT_EESt21is_move_constructibleIS6_ESt18is_move_assignableIS6_EEE5valueEvE4typeERS6_SG_@Qt_5 5.14.1
  _ZTI11QWebChannel@Qt_5 5.6.1
  _ZTI14QQmlWebChannel@Qt_5 5.6.1
  _ZTI18QWebChannelPrivate@Qt_5_PRIVATE_API 5.6.1
