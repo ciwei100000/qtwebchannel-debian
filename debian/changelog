@@ -1,3 +1,9 @@
+qtwebchannel-opensource-src (5.12.5-2build1) focal; urgency=medium
+
+  * No-change rebuild for libgcc-s1 package name change.
+
+ -- Matthias Klose <doko@ubuntu.com>  Mon, 23 Mar 2020 07:24:03 +0100
+
 qtwebchannel-opensource-src (5.12.5-2) unstable; urgency=medium
 
   * Add Build-Depends-Package field to debian/libqt5webchannel5.symbols.
