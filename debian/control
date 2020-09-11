@@ -6,6 +6,7 @@ Uploaders: Scarlett Moore <sgmoore@kde.org>,
            Simon Quigley <tsimonq2@debian.org>
 Section: libs
 Priority: optional
+Rules-Requires-Root: no
 Build-Depends: debhelper-compat (= 13),
                libqt5websockets5-dev (>= 5.15.1~),
                pkg-kde-tools,
