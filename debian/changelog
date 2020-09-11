@@ -4,6 +4,8 @@ qtwebchannel-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
   * New upstream release.
     - Bump Qt dependencies.
   * Update to debhelper compat level 13.
+    - Do not override dh_missing, the option --fail-missing is now the default
+      one.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Sep 2020 12:32:45 -0300
 
