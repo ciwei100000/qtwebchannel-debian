@@ -1,6 +1,5 @@
-qtwebchannel-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
+qtwebchannel-opensource-src (5.15.1-1) experimental; urgency=medium
 
-  [ Lisandro Damián Nicanor Pérez Meyer ]
   * New upstream release.
     - Bump Qt dependencies.
   * Update to debhelper compat level 13.
@@ -9,7 +8,7 @@ qtwebchannel-opensource-src (5.15.1-1) UNRELEASED; urgency=medium
     - Use the new substitution variables from debhelper 13 in install files.
   * Add Rules-Requires-Root: no to debian/control.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 11 Sep 2020 12:32:45 -0300
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 Sep 2020 13:05:59 -0300
 
 qtwebchannel-opensource-src (5.14.2-2) unstable; urgency=medium
 
