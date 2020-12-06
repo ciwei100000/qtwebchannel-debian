@@ -19,7 +19,7 @@ Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>,
                      qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>,
                      qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>,
                      qtwebsockets5-doc-html (>= 5.15.2~) <!nodoc>
-Standards-Version: 4.5.0
+Standards-Version: 4.5.1
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html
