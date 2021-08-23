@@ -6,17 +6,20 @@ Uploaders: Scarlett Moore <sgmoore@kde.org>,
            Simon Quigley <tsimonq2@debian.org>
 Section: libs
 Priority: optional
-Build-Depends: debhelper-compat (= 12),
-               libqt5websockets5-dev (>= 5.14.2~),
+Rules-Requires-Root: no
+Build-Depends: debhelper-compat (= 13),
+               libqt5websockets5-dev (>= 5.15.2~),
                pkg-kde-tools,
-               qml-module-qttest (>= 5.14.2+dfsg~),
-               qtbase5-dev (>= 5.14.2+dfsg~),
-               qtbase5-private-dev (>= 5.14.2+dfsg~),
-               qtdeclarative5-dev (>= 5.14.2+dfsg~)
-Build-Depends-Indep: qtbase5-doc-html (>= 5.14.2+dfsg~) <!nodoc>,
-                     qttools5-dev-tools (>= 5.14.2~) <!nodoc>,
-                     qtwebsockets5-doc-html (>= 5.14.2~) <!nodoc>
-Standards-Version: 4.5.0
+               qml-module-qttest (>= 5.15.2+dfsg~),
+               qtbase5-dev (>= 5.15.2+dfsg~),
+               qtbase5-private-dev (>= 5.15.2+dfsg~),
+               qtdeclarative5-dev (>= 5.15.2+dfsg~)
+Build-Depends-Indep: qdoc-qt5 (>= 5.15.2~) <!nodoc>,
+                     qhelpgenerator-qt5 (>= 5.15.2~) <!nodoc>,
+                     qtattributionsscanner-qt5 (>= 5.15.2~) <!nodoc>,
+                     qtbase5-doc-html (>= 5.15.2+dfsg~) <!nodoc>,
+                     qtwebsockets5-doc-html (>= 5.15.2~) <!nodoc>
+Standards-Version: 4.5.1
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel
 Vcs-Git: https://salsa.debian.org/qt-kde-team/qt/qtwebchannel.git
 Homepage: https://doc.qt.io/qt-5/qtwebchannel-index.html

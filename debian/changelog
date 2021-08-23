@@ -1,3 +1,38 @@
+qtwebchannel-opensource-src (5.15.2-2) unstable; urgency=medium
+
+  * Bump Standards-Version to 4.5.1, no changes needed.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Fri, 11 Dec 2020 11:32:33 +0300
+
+qtwebchannel-opensource-src (5.15.2-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Qt build-dependencies to 5.15.2.
+  * Build-depend only on the needed documentation tools, not on the
+    large qttools5-dev-tools package.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Sun, 22 Nov 2020 14:43:21 +0300
+
+qtwebchannel-opensource-src (5.15.1-2) unstable; urgency=medium
+
+  * Update debian/libqt5webchannel5.symbols from buildds’ logs.
+  * Upload to unstable.
+
+ -- Dmitry Shachnev <mitya57@debian.org>  Wed, 28 Oct 2020 21:54:21 +0300
+
+qtwebchannel-opensource-src (5.15.1-1) experimental; urgency=medium
+
+  * New upstream release.
+    - Bump Qt dependencies.
+  * Update to debhelper compat level 13.
+    - Do not override dh_missing, the option --fail-missing is now the default
+      one.
+    - Use the new substitution variables from debhelper 13 in install files.
+  * Add Rules-Requires-Root: no to debian/control.
+
+ -- Lisandro Damián Nicanor Pérez Meyer <lisandro@debian.org>  Fri, 11 Sep 2020 13:05:59 -0300
+
 qtwebchannel-opensource-src (5.14.2-2-c1) unstable; urgency=medium
 
   * Removed symbols files
